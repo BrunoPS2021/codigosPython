@@ -1,0 +1,43 @@
+pip instal requests
+
+criar arquivo.py
+
+codigo{
+
+
+import requests
+
+api_key = "minhachave"
+
+def chat_with_bot():
+    print("ChatBot: Hello! How can I assits yoy today?")
+    while True:
+        user_input = Input("You: ")
+
+        if user_input.lower() == 'exit':
+           print("ChatBot: GoodBye! Have a great day.")
+           break
+        
+        response = get_openai_response(user_input)
+	print("ChatBot: ",response)
+
+def get_openai_response(user_input):
+    headers = {
+        'Content-Type': 'application/json',
+	'Authorization': f'Bearer {api_key}'
+    }
+    data = {
+         'model': 'gpt-3.5-turbo',
+         'messages': [{'role': 'system', 'content': 'You are a helpful chatbot.'},
+                     {'role': 'user', 'content': user_input}]
+    }
+    response = request.post('https://api.openai.com/v1/chat/completions', headers=headers, json=dat)
+    response_json = response.json()
+    return response_json['choices'][0]['message']['content']
+
+if __name__ = "__main__":
+     chat_with_bot()
+
+}
+
+python nomedoarquivo.py

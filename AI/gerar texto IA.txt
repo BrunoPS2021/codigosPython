@@ -1,0 +1,25 @@
+criar conta OpenAI e gerar chave api
+
+dotnet new console -n nomeprojeto
+
+cd pastaprojeto
+
+dotnet add package OpenIA
+
+codigo{
+
+using OpenAI_API;
+
+var key = new APIAuthentication("key");
+
+var api = new OpenAIAPI(key);
+var prompt = "texto que vc quer";
+var request = new OpenAI_API.Completions.CompletionRequest(prompt, model: OpenAI_API.Model.DavinciText, max_tokens: 100, temperature: 0.7);
+var response = awiut api.Completions.CreateCompletionAsync(request);
+var completion = response.Completions[0].Text;
+Console.WriteLine("Gerated Tex: {0}",completion);
+
+
+}
+
+dotnet run
