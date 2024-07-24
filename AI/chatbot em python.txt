@@ -35,7 +35,7 @@ def get_openai_response(user_input):
     response_json = response.json()
     return response_json['choices'][0]['message']['content']
 
-if __name__ = "__main__":
+if __name__ == "__main__":
      chat_with_bot()
 
 }
