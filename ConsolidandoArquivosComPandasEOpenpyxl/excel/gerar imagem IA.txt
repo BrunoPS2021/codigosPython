@@ -1,0 +1,22 @@
+dotnet new console -n nomeprojeto
+
+cd pasta
+
+dotnet add package  OpenAI -v 1.7.2
+
+
+codigo{
+
+using OpenAI_API;
+
+var api = new OpenAIAPI("CHAVEREALDAAPIOPENAI");
+
+var request = new OpenAI_API.ImageGenerationRequest{
+	Prompt = "como a imagem sera"
+};
+var response = api.ImageGenerations.CreateImageAsync(request);
+Console.WriteLine("Image URL: {0}", response.Data[0].url);
+
+}
+
+dotnet run
