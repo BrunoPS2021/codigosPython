@@ -1,0 +1,6 @@
+ID;Aluno;Média;Faltas;Situação
+;Amanda Martins; Média: 8.75; Faltas: 3; Aluno(a) aprovado(a)
+;Carlos Moreira; Média: 6.75; Faltas: 2; Aluno(a) aprovado(a)
+;Nicolas Pereira; Média: 1.75; Faltas: 3; Aluno(a) reprovado(a) por media
+;Raul Silva; Média: 8.25; Faltas: 4; Aluno(a) reprovado(a) por faltas
+;Eduardo Pires; Média: 8.5; Faltas: 1; Aluno(a) aprovado(a)

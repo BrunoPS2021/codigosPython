@@ -1,0 +1,3 @@
+Escola;ID;Aluno;CPF;Idade
+ABC;235215;Nicolas Pereira;CPF: 12345678916;57
+ABC;751595;Paulo Santos Alves;CPF: 12345678917;45

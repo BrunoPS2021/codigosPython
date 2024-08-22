@@ -1,0 +1,3 @@
+Escola;ID;Aluno;CPF;Idade
+ABC;310916;Angela Maria Silva;CPF: 12345678912;25
+ABC;760926;Carlos Moreira;CPF: 12345678913;23

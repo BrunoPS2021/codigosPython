@@ -1,0 +1,3 @@
+Escola;ID;Aluno;CPF;Idade
+ABC;782707;Aline Rosa Ferreira;CPF: 12345678910;36
+Filho;437686;Amanda Martins;CPF: 12345678911;38
