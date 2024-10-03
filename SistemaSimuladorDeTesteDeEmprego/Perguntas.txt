@@ -1,0 +1,63 @@
+#Definir a lista de perguntas
+perguntas = [
+    {
+        "pergunta": "Qual é a forma correta de criar uma variável em Python?",
+        "opcoes": ["a) var = 10", "b) 10 = var", "c) VAR = 10", "d) $var = 10"],
+        "resposta": "a",
+        "explicacao": "Em Python, a forma correta de criar uma variável é utilizando o nome da variável seguido pelo operador de atribuição (=) e o valor que será atribuído à variável."
+    },
+    {
+        "pergunta": "Qual é o resultado da expressão 3 + 4 * 2?",
+        "opcoes": ["a) 14", "b) 11", "c) 10", "d) 7"],
+        "resposta": "b",
+        "explicacao": "Em Python, a ordem de precedência dos operadores é levada em consideração. Neste caso, a multiplicação tem precedência sobre a adição, então a expressão é avaliada como 3 + (4 * 2) = 11."
+    },
+    {
+        "pergunta": "Qual é o método utilizado para obter o tamanho de uma lista em Python?",
+        "opcoes": ["a) len()", "b) size()", "c) count()", "d) get_size()"],
+        "resposta": "a",
+        "explicacao": "O método len() é utilizado para obter o tamanho de uma lista em Python. Ele retorna o número de elementos presentes na lista."
+    },
+    {
+        "pergunta": "Qual é o operador de atribuição em Python?",
+        "opcoes": ["a) =", "b) ==", "c) +=", "d) -="],
+        "resposta": "a",
+        "explicacao": "O operador de atribuição em Python é o sinal de igual (=). Ele é utilizado para atribuir um valor a uma variável."
+    },
+    {
+        "pergunta": "Qual é o resultado da expressão 'hello' + 'world'?",
+        "opcoes": ["a) hello", "b) world", "c) helloworld", "d) hello world"],
+        "resposta": "c",
+        "explicacao": "Quando se utiliza o operador de concatenação (+) com duas strings em Python, elas são concatenadas, ou seja, unidas. Neste caso, 'hello' + 'world' resulta em 'helloworld'."
+    },
+    {
+        "pergunta": "Qual é a estrutura de repetição utilizada em Python para percorrer uma sequência?",
+        "opcoes": ["a) while", "b) for", "c) repeat", "d) loop"],
+        "resposta": "b",
+        "explicacao": "A estrutura de repetição for é utilizada em Python para percorrer uma sequência, como uma lista, uma string, entre outros. Ela permite executar um bloco de código para cada elemento da sequência."
+    },
+    {
+        "pergunta": "Qual é o método utilizado para imprimir um valor no console em Python?",
+        "opcoes": ["a) print()", "b) input()", "c) display()", "d) show()"],
+        "resposta": "a",
+        "explicacao": "O método print() é utilizado para imprimir um valor no console em Python. Ele exibe o valor especificado como argumento na saída padrão."
+    },
+    {
+        "pergunta": "Qual é o tipo de dado utilizado para armazenar uma sequência de caracteres em Python?",
+        "opcoes": ["a) string", "b) number", "c) boolean", "d) list"],
+        "resposta": "a",
+        "explicacao": "O tipo de dado utilizado para armazenar uma sequência de caracteres em Python é chamado de string. Strings são representadas entre aspas simples ('') ou aspas duplas (\")."
+    },
+    {
+        "pergunta": "Qual é o resultado da expressão 2 ** 3?",
+        "opcoes": ["a) 6", "b) 8", "c) 2", "d) 23"],
+        "resposta": "b",
+        "explicacao": "O operador ** é utilizado em Python para realizar a exponenciação. Neste caso, 2 ** 3 é igual a 8, pois representa 2 elevado à potência de 3."
+    },
+    {
+        "pergunta": "Qual é o operador utilizado para verificar se dois valores são iguais em Python?",
+        "opcoes": ["a) =", "b) ==", "c) +=", "d) -="],
+        "resposta": "b",
+        "explicacao": "O operador de comparação utilizado para verificar se dois valores são iguais em Python é o operador ==. Ele retorna True se os valores forem iguais e False caso contrário."
+    }
+]
