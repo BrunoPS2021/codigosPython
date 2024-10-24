@@ -1,0 +1,16 @@
+banana,1
+laranja,1
+pera,1
+uva,1
+limão,1
+cão,0
+carro,0
+casa,0
+teste,0
+goiaba,1
+manga,1
+abacaxi,1
+tomate,1
+pepino,0
+mangaba,1
+mesa,0

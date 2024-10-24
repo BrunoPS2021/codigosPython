@@ -1,0 +1,29 @@
+O que são variáveis em Python?|Variáveis são identificadores que armazenam valores na memória.
+Como você declara uma variável em Python?|Você pode declarar uma variável usando o sinal de igual (=), como em x = 5.
+O que são tipos de dados em Python?|Tipos de dados em Python são as categorias nas quais os valores podem ser classificados, como int, float, string e list.
+Como você comenta uma linha em Python?|Usando o símbolo de hash (#) antes do texto do comentário.
+O que é uma lista em Python?|Uma lista em Python é uma coleção ordenada de itens que podem ser de diferentes tipos.
+Como você acessa elementos em uma lista?|Usando índices, começando de 0, como em my_list[0] para o primeiro elemento.
+O que são loops em Python?|Loops são estruturas de controle que repetem um bloco de código várias vezes.
+Como você escreve um loop for em Python?|Usando a palavra-chave "for", como em for i in range(5):.
+O que é uma função em Python?|Uma função é um bloco de código reutilizável que executa uma tarefa específica.
+Como você define uma função em Python?|Usando a palavra-chave "def", seguida pelo nome da função e parênteses.
+O que é uma string em Python?|Uma string é uma sequência de caracteres.
+Como você pode cortar uma string?|Usando slicing, como em my_string[1:4].
+O que é um dicionário em Python?|Um dicionário é uma coleção não ordenada de pares chave-valor.
+Como você adiciona um elemento a uma lista?|Usando o método append(), como em my_list.append('new_item').
+Como você remove um elemento de uma lista?|Usando o método remove(), como em my_list.remove('item_to_remove').
+O que é uma tupla em Python?|Uma tupla é uma coleção ordenada e imutável de itens.
+Como você acessa elementos em um dicionário?|Usando chaves, como em my_dict['key'].
+O que é um conjunto em Python?|Um conjunto é uma coleção não ordenada de itens únicos.
+Como você verifica se uma lista está vazia?|Usando a função len(), como em if len(my_list) == 0:.
+Como você inverte uma string?|Usando slicing, como em my_string[::-1].
+O que é a instrução if?|A instrução if é usada para testar uma condição e executar um bloco de código se a condição for verdadeira.
+O que é a instrução else?|A instrução else é usada para executar um bloco de código se a condição da instrução if for falsa.
+O que são operadores em Python?|Operadores são símbolos especiais que representam operações aritméticas ou lógicas.
+O que é uma expressão em Python?|Uma expressão é uma combinação de valores e operadores que pode ser avaliada.
+O que é a biblioteca padrão em Python?|É uma coleção de módulos e pacotes que fornecem funcionalidades úteis.
+Como você importa um módulo em Python?|Usando a palavra-chave "import", como em import math.
+O que é a recursão em Python?|Recursão é uma técnica onde uma função chama a si mesma.
+O que é PEP 8?|PEP 8 é o guia de estilo para a codificação em Python.
+Como você lê um arquivo em Python?|Usando a função open() e o método read(), como em f = open('file.txt', 'r'); content = f.read().
